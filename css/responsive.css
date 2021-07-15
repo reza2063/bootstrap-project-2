@@ -60,11 +60,6 @@ Responsive start for css code format
 	max-width:100%!important;
 }
 
-
-/*===============================
-when small devices carousel caption never work thn active this-
-
-
 .style8 {
     display: none;
 }
@@ -90,7 +85,6 @@ when small devices carousel caption never work thn active this-
 	bottom:0;
 }
 
-=======================================*/
 
 .sub_container{
 	display:grid;
