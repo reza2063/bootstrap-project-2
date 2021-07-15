@@ -1,0 +1,281 @@
+
+/*============================
+  comon typography desing
+===========================================*/
+
+body{
+	background:#e9ecef!important;
+}
+
+p {
+    color: #828181!important;
+    font-size: 1.1em!important;
+    font-weight: 400!important;
+    font-family: sans-serif !important;
+    font-style: normal!important;
+    word-spacing: normal!important;
+    text-transform: none!important;
+    letter-spacing: normal!important;
+}
+
+h2 {
+    color: #312d2d;
+    font-size: 1.7em;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    font-family: oswald;
+}
+
+h4 {
+    color: #000;
+    font-size:.9em;
+    text-transform: uppercase;
+    word-spacing:-1px;
+    font-family: oswald;
+}
+
+
+
+.progress{
+	background-color: #3b6b9b!important;
+}
+
+hr {
+    width: 15%;
+    height: 3px;
+    background: #e6a32a;
+    border-radius: 20px;
+}
+
+
+.brand_area_info, .service_heading_text, .feafures-col, 
+.our_work_area_heading, .single_work_text, .portfolio_des,
+.proud_info, .team_info_content, .massage_area{
+	text-align:center!important;
+	padding:5% 15%;
+}
+
+/*============================
+   header // nav area css
+===========================================*/
+.logo {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-shadow: 1px 0px 5px #f40b0b
+}
+
+.li_style:hover{
+    background: #7979799c;
+    border-radius: 10px;
+}
+
+/*============================
+   Branding // service area css
+=======================================*/
+
+.brand_content{
+	padding: 5% 35%;
+   border-bottom: 2px solid #cacacacc;
+}
+
+.feafures-col {
+    border: 1px solid orange;
+    margin: 5px;
+    box-shadow: 0px 0px 5px 0px #aa9393;
+}
+
+
+.icon-style{
+	color: #ffbf00;
+    margin: 10px 0;
+
+}
+
+
+
+
+/*============================
+   our done work // portfolio area css
+===========================================*/
+.single_work_text {
+    margin-bottom: 10%;
+    padding: 10%;
+    box-shadow: 0px 1px 5px 0px #9da2a2;
+}
+
+.icon-style2 {
+    color: #8B8C93;
+    margin: 10px;
+}
+
+.text-black{
+	color:#000;
+}
+
+.portfolio_des{
+    border-bottom: 2px solid #cacacacc;	
+}
+
+.list_item_area {
+    place-content: center;
+    display: flex;
+}
+
+.a_style{
+	display:block;
+	text-align:center;
+	margin:10px 0;
+}
+
+/*============================
+   proud win // team info area
+===========================================*/
+.team_member_info {
+    padding-bottom: 5%;
+}
+
+.style_now{
+    border:1px solid orange;	
+}
+
+.style3{
+    width: 80%;
+    margin: 0 auto;
+    place-content: center;
+}
+
+.style7{
+    border: 2px solid #b0aca5a8;
+    margin: 10px 0;
+    padding: 2px;
+	box-sizing:border-box;
+}
+
+/*============================
+ skill // awesome // find // with us area
+===========================================*/
+#jhon_doe_skills{
+	 border-top: 2px solid #cacacacc;
+}
+
+
+.find_our_address {
+	 border-bottom: 2px solid #cacacacc;	
+}
+
+#with_us_our_company {
+    padding-bottom: 3%;
+	margin-top: 3rem;
+}
+
+/*============================
+   contact us // introduction area
+===========================================*/
+.massage_area{
+	padding-bottom:0;
+}
+
+.massage_info form input {
+    padding: .5em;
+    width: 31%;
+    margin: 2% 4px;
+}
+
+.style4 {
+    margin: 2% auto !important;
+}
+
+.style4:hover{
+    box-shadow:0px 0px 5px 0px #fd000085
+}
+
+.icon-style11 {
+	color:orange;
+	margin:10px auto;
+}
+
+
+.col_style{
+	max-width:40%!important;
+	text-align:center;
+}
+
+/*============================
+   footer // feedback area 
+===========================================*/
+.copy_right_area{
+    margin: 5% auto;
+    place-content: center;
+    display: grid;
+}
+
+
+.style8 span{
+    width: 25%;
+    height: 2px;
+    background: #c89434;
+    margin: 10px auto;
+    display: block;
+}
+
+
+/*============================
+   social area
+===========================================*/
+.hero {
+    place-content: center;
+    display: flex;
+}
+
+
+.social_area .hero .social-links a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    color: #454553;
+    box-shadow: 0px 0px 8px 0px rgba(244, 191, 191, 0.48);
+    margin: 5px 3px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.4s;
+	background: #fff;
+}
+
+.social_area .hero .social-links a:hover{
+		transform:translateY(-5px);
+}
+
+.social_area .hero .social-links a::after{
+	content:'';
+	width:100%;
+	height:100%;
+	top:-90px;
+	left:0;
+	background:linear-gradient(-45deg, #ed1c94, #ffec17);
+	position:absolute;
+	transition:0.5s;
+}
+
+.social_area .hero .social-links a:hover::after{
+   top:0;
+}
+
+
+.social_area .hero .social-links .fab{
+	font-size:15px;
+	line-height:35px;
+	position:relative;
+	z-index:10;
+	transition:color 0.5s;
+}
+
+.social_area .hero .social-links a:hover .fab{
+   color:#fff;
+}
+
+

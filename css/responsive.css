@@ -1,0 +1,189 @@
+
+/*==============================
+Responsive start for css code format
+======================================*/
+
+
+
+
+/*===============================
+ X-Small devices (portrait phones, less than 576px)
+=======================================*/
+
+@media (max-width: 575.98px) { 
+.brand_area_info, .service_heading_text, .feafures-col, 
+.our_work_area_heading, .single_work_text, .portfolio_des,
+.proud_info, .team_info_content, .massage_area{
+	padding:5% 0;
+}
+
+.feafures-col{
+	padding:0;
+}
+
+.brand_content{
+	padding:0;
+    padding-bottom: 5%;
+}
+
+
+.img_area{
+	width:100%!important;
+
+	float:none;
+}
+
+.img_text{
+	width:100%!important;
+	float:none;
+	padding:5px!important;
+	text-align:center;
+}
+
+
+.massage_info form input {
+    width: 100%;
+	 margin: 2% auto;
+}
+
+
+.single_work_text{
+	margin-bottom:3%;
+}
+
+.carousel{
+	width:100%!important;
+}
+
+
+.col_style{
+	max-width:100%!important;
+}
+
+
+/*===============================
+when small devices carousel caption never work thn active this-
+
+
+.style8 {
+    display: none;
+}
+
+.style9 {
+    font-size: .9em!important;
+    line-height: 14px;
+    margin-bottom: 0;
+}
+
+
+.style10 {
+    font-size: 1em;
+    margin-bottom:10px;
+}
+
+.carousel-caption{
+	bottom:0;
+	padding-bottom:15px;
+}
+
+.carousel-indicators{
+	bottom:0;
+}
+
+=======================================*/
+
+.sub_container{
+	display:grid;
+}
+
+.percent{
+	margin-bottom:3rem!important;
+}
+
+
+
+}
+
+
+/*=================================
+Small devices (landscape phones, less than 768px)
+=======================================*/
+
+@media ( min-width: 575.99px ) and (max-width: 767.98px ){
+.brand_area_info, .service_heading_text, .feafures-col, 
+.our_work_area_heading, .single_work_text, .portfolio_des,
+.proud_info, .team_info_content, .massage_area{
+	padding:3%;
+}
+
+.img_text{
+	padding-top:0!important;
+}
+	
+.style5{
+	font-size:1em;
+}
+
+.style6{
+	font-size:.9em!important;
+}
+
+.carousel{
+	width:100%!important;
+}
+
+
+
+
+
+}
+
+
+/*=================================
+Medium devices (tablets, less than 992px)
+=======================================*/
+
+
+@media ( min-width: 767.99px) and (max-width: 991.98px ){
+
+.carousel{
+	width:100%!important;
+}
+
+
+
+
+}
+
+
+/*=================================
+Large devices (desktops, less than 1200px)
+=======================================*/
+
+@media ( min-width: 991.99px) and (max-width: 1199.98px) { 
+
+
+
+
+}
+
+
+/*=================================
+X-Large devices (large desktops, less than 1400px)
+=======================================*/
+
+@media ( min-width:  1199.99px)and (max-width: 1399.98px) { 
+
+
+}
+
+
+/*=================================
+  XX-Large devices (larger desktops)
+No media query since the xxl breakpoint has no upper bound on its width
+=======================================*/
+
+/*pothom a je coding korechi tai hobe
+ notun kore kichu likhte hobe na akhane
+*/
+
