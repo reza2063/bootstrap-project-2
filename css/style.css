@@ -1,8 +1,6 @@
-
-/*============================
-  comon typography desing
-===========================================*/
-
+/*===
+comon css
+============*/
 body{
 	background:#e9ecef!important;
 }
@@ -35,8 +33,6 @@ h4 {
     font-family: oswald;
 }
 
-
-
 .progress{
 	background-color: #3b6b9b!important;
 }
@@ -48,7 +44,6 @@ hr {
     border-radius: 20px;
 }
 
-
 .brand_area_info, .service_heading_text, .feafures-col, 
 .our_work_area_heading, .single_work_text, .portfolio_des,
 .proud_info, .team_info_content, .massage_area{
@@ -56,9 +51,9 @@ hr {
 	padding:5% 15%;
 }
 
-/*============================
-   header // nav area css
-===========================================*/
+/*=====
+header//nav
+=============*/
 .logo {
     display: inline-block;
     text-transform: uppercase;
@@ -67,43 +62,64 @@ hr {
     text-shadow: 1px 0px 5px #f40b0b
 }
 
-.li_style:hover{
-    background: #7979799c;
-    border-radius: 10px;
+.li_style{
+	transition:0.3s;
 }
 
-/*============================
-   Branding // service area css
-=======================================*/
+.li_style:hover{
+    background:#1a1e22 ;
+}
+
+/*========
+Branding//service
+====================*/
+#brand_area{
+	background:url(../img/10.jpg) no-repeat;
+	height:100vh;
+	background-size:cover;
+	position: relative;
+}
+
+#brand_area::before {
+    content: "";
+    background: rgba(5, 13, 24, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 
 .brand_content{
-	padding: 5% 35%;
-   border-bottom: 2px solid #cacacacc;
+	padding-top:30%;
+	position: sticky;
 }
 
 .feafures-col {
     border: 1px solid orange;
     margin: 5px;
     box-shadow: 0px 0px 5px 0px #aa9393;
+	height: 100%;
 }
-
 
 .icon-style{
 	color: #ffbf00;
     margin: 10px 0;
-
 }
 
-
-
-
-/*============================
-   our done work // portfolio area css
-===========================================*/
+/*===========
+our done work//portfolio
+============================*/
 .single_work_text {
     margin-bottom: 10%;
     padding: 10%;
     box-shadow: 0px 1px 5px 0px #9da2a2;
+	height: 100%;
+}
+
+.nav.text-uppercase {
+    display: flex;
+    justify-content: center;
 }
 
 .icon-style2 {
@@ -124,15 +140,14 @@ hr {
     display: flex;
 }
 
-.a_style{
-	display:block;
-	text-align:center;
-	margin:10px 0;
+/*=========
+proud win//team info
+=======================*/
+#our_team_info_area {
+    overflow: hidden;
+    margin-bottom: 2rem;
 }
 
-/*============================
-   proud win // team info area
-===========================================*/
 .team_member_info {
     padding-bottom: 5%;
 }
@@ -149,19 +164,18 @@ hr {
 
 .style7{
     border: 2px solid #b0aca5a8;
-    margin: 10px 0;
-    padding: 2px;
-	box-sizing:border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 1rem 0;
+    display: block;
+    padding: 1rem 0;
+    text-align: center;
+	height: 10rem;
 }
 
-/*============================
- skill // awesome // find // with us area
-===========================================*/
-#jhon_doe_skills{
-	 border-top: 2px solid #cacacacc;
-}
-
-
+/*==========================
+ skill // awesome // find // with us
+=======================================*/
 .find_our_address {
 	 border-bottom: 2px solid #cacacacc;	
 }
@@ -171,9 +185,9 @@ hr {
 	margin-top: 3rem;
 }
 
-/*============================
-   contact us // introduction area
-===========================================*/
+/*=============
+contact us//introduction
+============================*/
 .massage_area{
 	padding-bottom:0;
 }
@@ -188,30 +202,29 @@ hr {
     margin: 2% auto !important;
 }
 
-.style4:hover{
-    box-shadow:0px 0px 5px 0px #fd000085
-}
-
 .icon-style11 {
 	color:orange;
 	margin:10px auto;
 }
-
 
 .col_style{
 	max-width:40%!important;
 	text-align:center;
 }
 
-/*============================
-   footer // feedback area 
-===========================================*/
+/*====
+footer//feedback
+====================*/
+#footer {
+    padding-top: 1rem;
+    margin-top: 2rem;
+	background:#000;
+}
+
 .copy_right_area{
-    margin: 5% auto;
     place-content: center;
     display: grid;
 }
-
 
 .style8 span{
     width: 25%;
@@ -221,29 +234,26 @@ hr {
     display: block;
 }
 
-
-/*============================
-   social area
-===========================================*/
+/*====
+social area
+=============*/
 .hero {
     place-content: center;
     display: flex;
 }
-
 
 .social_area .hero .social-links a{
     display: inline-block;
     width: 35px;
     height: 35px;
     text-align: center;
-    color: #454553;
-    box-shadow: 0px 0px 8px 0px rgba(244, 191, 191, 0.48);
+    color: #202020cf;
     margin: 5px 3px;
     border-radius: 50%;
     position: relative;
     overflow: hidden;
     transition: transform 0.4s;
-	background: #fff;
+    background: #cacaca;
 }
 
 .social_area .hero .social-links a:hover{
@@ -265,7 +275,6 @@ hr {
    top:0;
 }
 
-
 .social_area .hero .social-links .fab{
 	font-size:15px;
 	line-height:35px;
@@ -277,5 +286,3 @@ hr {
 .social_area .hero .social-links a:hover .fab{
    color:#fff;
 }
-
-
